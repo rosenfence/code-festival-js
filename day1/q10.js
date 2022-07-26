@@ -18,7 +18,7 @@ const chrismasTree = (e) => {
     //리턴하고 별 찍을 도화지 선언
     let output = ''
 
-    // 받은 숫자 만큼 찍어보기
+    // 받은 숫자(e) 만큼 줄 반복
     for (let i = 0; i < e; i++) {
         let star = '';
         for (let j = 0; j < e-i; j++) {
