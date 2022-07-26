@@ -17,3 +17,19 @@ const checkFunc = (obj) => {
     }
 }
 checkFunc(listObj);
+
+// Falshy 거짓인 값
+// console.log(!!0);
+// console.log(!!-0);
+// console.log(!!'');
+// console.log(!!null);
+// console.log(!!undefined);
+// console.log(!!NaN);
+
+// Truthy 진짜인 값
+// console.log(!!1);
+// console.log(!!-1);
+// console.log(!!'text');
+// console.log(!!{}); 들어있든 안들어있든 상관없음
+// console.log(!!Infinity);
+// console.log(!![]); 들어있든 안들어있든 상관없음
