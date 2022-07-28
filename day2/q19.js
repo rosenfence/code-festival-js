@@ -10,3 +10,5 @@ const outputPower = (base, exponent) => {
 
 outputPower(2,3);
 outputPower(3,4);
+
+//! 공백으로 입력해서 쓸 수 있도록 다시

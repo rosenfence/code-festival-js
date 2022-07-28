@@ -8,7 +8,8 @@
 */
 
 const introduce = (name) => {
-    console.log(`안녕하세요. 저는 ${name}입니다.`);
+    console.log(`안녕하세요. 저는 ${name}입니다.`); // good
+    console.log('안녕하세요. 저는 ' + name+'입니다.'); // bad
 }
 
 introduce('김다정');

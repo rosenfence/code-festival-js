@@ -6,7 +6,7 @@
 */
 
 const outputShareAndRest = (divided, divider) => {
-    let share = parseInt(divided/divider);
+    let share = Math.floor(divided/divider);
     let rest = divided%divider;
     console.log(`${share} ${rest}`);
 }

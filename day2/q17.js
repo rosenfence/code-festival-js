@@ -9,7 +9,7 @@
 */
 
 const checkHeight = (height) => {
-    height > 150 ? console.log('YES') : console.log('NO');
+    height >= 150 ? console.log('YES') : console.log('NO');
 }
 
 checkHeight(148); //NO

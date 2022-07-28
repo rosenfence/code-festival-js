@@ -8,7 +8,8 @@
 */
 
 const outputAverage = (kor, math, eng) => {
-    console.log((kor+math+eng)/3);
+    console.log(Math.floor((kor+math+eng)/3));
 }
 
 outputAverage(20,30,40);
+outputAverage(22,30,46);

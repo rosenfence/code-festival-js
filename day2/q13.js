@@ -32,3 +32,5 @@ planetOutput(5);
 planetOutput(6);
 planetOutput(7);
 planetOutput(8);
+
+//switch case, 배열로도 사용할 수 있다

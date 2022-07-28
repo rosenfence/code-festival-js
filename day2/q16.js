@@ -6,17 +6,15 @@
 
 const reverseOutput = (str) => {
     const arr = str.split('').reverse();
-    console.log(arr);
     let result = '';
     for(let i=0; i<arr.length; i++){
         result = result + arr[i];
     }
-    console.log(result);
     return result;
 }
 
 reverseOutput('거꾸로');
-
+//! join method 사용하면 더 짧게 가능
 /*
 for(let i=arr.length-1; i === 0; i--){
     result = result + arr[i];
