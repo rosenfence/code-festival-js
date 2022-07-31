@@ -6,3 +6,19 @@
 두 개를 합쳐 **학생의 이름이 key**이고 **value가 수학 점수**인 객체를 출력해주세요.
 */
 
+const stuName = [];
+const stuScore = [];
+
+const createObj = (stu1, stu2, sco1, sco2) => {
+  const result = {};
+
+  stuName.push(stu1, stu2);
+  stuScore.push(sco1, sco2);
+
+  result[stuName[0]] = stuScore[0];
+  result[stuName[1]] = stuScore[1];
+
+  return result;
+};
+
+console.log(createObj("철수", "영희", 90, 85));
